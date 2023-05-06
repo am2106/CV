@@ -1071,7 +1071,7 @@ display: inline-block;
 text-align: center;
 
 ;
-margin-right: 10px;
+.margin-right: 10px;
  }
  .text-bg a:hover {
      background-color: #7A93D0;
@@ -1139,7 +1139,6 @@ max-width: 539px;
 padding: 40px 0;
     
 }
-
 
 
 .about .about-box::after {
