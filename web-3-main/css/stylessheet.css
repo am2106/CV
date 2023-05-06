@@ -346,10 +346,52 @@ box-sizing: inherit;
 address, article, aside, div, footer, header, hgroup, layer, main, nav, section {
 display: block;
 }
+
 body {
 color: rgb(0, 32, 77);
 font-size: 1rem;
 line-height: 1.5;
-font-family: Moonpig, sans-serif;
+font-family: sans-serif;
 font-weight: 300;
+}
+
+:not(svg), :not(foreignObject) > svg {
+transform-origin-x: 0px;
+transform-origin-y: 0px;
+transform-box: view-box;
+}
+
+path {
+clip-rule: evenodd;
+fill: currentcolor;
+fill-rule: evenodd;
+}
+
+.eVHHwZ:disabled {
+color: rgb(118, 118, 118);
+cursor: default;
+}
+
+.eVHHwZ {
+cursor: pointer;
+color: rgb(0, 32, 77);
+}
+
+input:is([type="button"],
+[type="submit"],
+[type="reset"]):disabled,
+input[type="file"]:disabled::file-selector-button,
+button:disabled,
+select:disabled,
+keygen:disabled,
+optgroup:disabled,
+option:disabled,
+select[disabled] > option {
+color: graytext;
+}
+
+input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button {
+text-align: center;
+cursor: default;
+color: buttontext;
 }
