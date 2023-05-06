@@ -1027,10 +1027,10 @@ font-weight: bold;
 .cards  {padding-bottom: 50px;}
 .cards .cards_fom {
      padding: 15px 30px;
-     box-shadow: inherit;
      border: inherit;
      width: 60%;
      font-size: 19px;
+     box-shadow: #b0b0b0 0px -2px 9px 0px;
 
 }
  .Search_btn {
