@@ -219,3 +219,13 @@ html {
 html {
 color: text;
 }
+
+
+Style Attribute {
+position: absolute;
+z-index: 0;
+inset: 0px;
+width: 100%;
+height: 100%;
+pointer-events: none;
+}
