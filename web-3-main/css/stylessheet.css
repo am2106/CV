@@ -278,3 +278,20 @@ border-top-color: rgb(206, 51, 86);
 color: rgb(255, 255, 255);
 background-color: rgb(206, 51, 86);
 }
+
+
+-webkit-box-align: center;
+-webkit-box-pack: center;
+-webkit-font-smoothing: auto;
+-webkit-user-select: none;
+align-items: center;
+box-sizing: border-box;
+color: rgb(0, 32, 77);
+display: flex;
+font-family: Moonpig, sans-serif;
+font-size: 16px;
+font-weight: 300;
+height: 120px;
+justify-content: center;
+line-height: 24px;
+width: 1227px;
