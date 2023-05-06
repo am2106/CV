@@ -295,3 +295,25 @@ height: 120px;
 justify-content: center;
 line-height: 24px;
 width: 1227px;
+
+
+webkit-font-smoothing: auto;
+-webkit-user-select: none;
+bottom: 0px;
+box-sizing: border-box;
+color: rgb(0, 32, 77);
+display: block;
+font-family: Moonpig, sans-serif;
+font-size: 16px;
+font-weight: 300;
+height: 595px;
+left: 0px;
+line-height: 24px;
+overflow-x: hidden;
+overflow-y: hidden;
+pointer-events: none;
+position: absolute;
+right: 0px;
+top: 0px;
+width: 1227px;
+z-index: 0;
