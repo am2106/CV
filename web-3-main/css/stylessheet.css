@@ -335,3 +335,21 @@ width: 100%;
 height: 100%;
 display: flex;
 }
+
+* {
+}
+
+*, ::before, ::after {
+box-sizing: inherit;
+}
+
+address, article, aside, div, footer, header, hgroup, layer, main, nav, section {
+display: block;
+}
+body {
+color: rgb(0, 32, 77);
+font-size: 1rem;
+line-height: 1.5;
+font-family: Moonpig, sans-serif;
+font-weight: 300;
+}
