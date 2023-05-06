@@ -395,3 +395,23 @@ text-align: center;
 cursor: default;
 color: buttontext;
 }
+
+input, textarea, keygen, select, button {
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+font-family: system-ui;
+font-variant-caps: normal;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+text-align: start;
+}
+
+input, textarea, keygen, select, button, meter, progress {
+writing-mode: horizontal-tb;
+}
