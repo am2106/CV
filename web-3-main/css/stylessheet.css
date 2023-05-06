@@ -279,7 +279,7 @@ color: rgb(255, 255, 255);
 background-color: rgb(206, 51, 86);
 }
 
-
+{
 -webkit-box-align: center;
 -webkit-box-pack: center;
 -webkit-font-smoothing: auto;
@@ -295,9 +295,10 @@ height: 120px;
 justify-content: center;
 line-height: 24px;
 width: 1227px;
+} 
 
-
-webkit-font-smoothing: auto;
+{
+webkit-font-smoothing: auto; 
 -webkit-user-select: none;
 bottom: 0px;
 box-sizing: border-box;
@@ -317,3 +318,10 @@ right: 0px;
 top: 0px;
 width: 1227px;
 z-index: 0;
+}
+
+
+div.sc-bxivhb.sc-ifAKCX.aMcQn:{
+height: 120px;
+width: 2175;
+}
