@@ -1275,29 +1275,6 @@ display: block;
      font-size: 50px;
 }
 
-.clients {
-     background: #fff;
-     margin-top: 90px;
-   
-} 
-.clients .titlepage {padding-bottom: 0px;}
-.clients .titlepage h2 {
-    color: #000;
-margin-bottom: -77px;
-text-align: right;
-}
-
-.clients_red {
-     background: #fff;
-     padding-bottom: 50px;
-     background: url(../images/test.png);
-     min-height: 978px;
-     background-repeat: no-repeat;
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-} 
-
 .cross_inner h3 {
     text-align: left;
     padding-left: 60px;
