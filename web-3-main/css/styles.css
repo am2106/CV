@@ -1256,12 +1256,6 @@ transition: all 0.3s ease-in;
  gap: 1.5rem;
 }
 
-.products .box {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax (30rem, 1fr));
- gap: 1.5rem;
-}
-
 .products .box-container .box{
  text-align: center;
  border: var(--border);
