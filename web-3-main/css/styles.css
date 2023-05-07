@@ -1065,12 +1065,6 @@ background-size: 100%;
 
 }
 
-.products .box-container {
- display: grid;
- grid-template-columns: auto auto auto auto;
- gap: 1.5rem;
-}
-
 .products .box-container1 {
  display: grid;
  grid-template-columns: auto auto auto auto;
@@ -1083,14 +1077,14 @@ background-size: 100%;
  gap: 1.5rem;
 }
 
-.products .box-container2 .box{
+.products .box-container1 .box{
  float: right;
  border: var(--border);
  padding: 2rem;
 }
 
 .products .box-container2 .box{
- text-align: right;
+ text-align: center;
  border: var(--border);
  padding: 2rem;
 }
