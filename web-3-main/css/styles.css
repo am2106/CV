@@ -1111,7 +1111,7 @@ background-size: 100%;
 }
 
 .products .wrapper2 .box{
- ext-align: center;
+ align-content: space-evenly;
  border: var(--border);
  padding: 2rem;
 }
