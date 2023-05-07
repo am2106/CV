@@ -1254,8 +1254,8 @@ transition: all 0.3s ease-in;
 
 .products .box-container {
  display: grid;
- grid-template-columns: repeat(6, 16.6%);
- gap: 1.5rem;
+ grid-template-columns: repeat(6, 33.3%);
+ gap: 10%;
 }
 
 .products .box-container .box{
