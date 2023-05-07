@@ -1077,13 +1077,13 @@ background-size: 100%;
  gap: 1.5rem;
 }
 
-.products .box-container1 .box{
+.products .box-container1 .column-two .box{
  float: center;
  border: var(--border);
  padding: 2rem;
 }
 
-.products .box-container2 .box{
+.products .box-container2 .column-two .box{
  text-align: center;
  border: var(--border);
  padding: 2rem;
