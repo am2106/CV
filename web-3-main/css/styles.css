@@ -1084,6 +1084,7 @@ background-size: 100%;
  padding: 2rem;
 }
 .products .box-container2 .box{
+ float: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
@@ -1117,7 +1118,7 @@ background-size: 100%;
  background:var(--main-color);
 }
 
-.products .box-container2 .box .images{
+.products .box-container1 .box .images{
  padding: 2.5rem 0;
 }
 
@@ -1125,7 +1126,7 @@ background-size: 100%;
  padding: 2.5rem 0;
 }
 
-.products .box-container2 .box .images img{
+.products .box-container1 .box .images img{
  padding: 25rem;
 }
 
