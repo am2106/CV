@@ -1065,13 +1065,13 @@ background-size: 100%;
 
 }
 
-.products .box-container2 .column-two {
+.products .box-container2 {
  display: grid;
  grid-template-columns: repeat(2, 2fr);
  gap: 1.5rem;
 }
 
-.products .box-container2 .column-two {
+.products .box-container2 {
  display: grid;
  grid-template-columns: repeat(2, 2fr);
  gap: 1.5rem;
@@ -1079,7 +1079,7 @@ background-size: 100%;
 
 .products .box-container1 .box{
  margin-right: auto;
-
+ text-align: center;
  border: var(--border);
  padding: 2rem;
 }
