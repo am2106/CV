@@ -1077,13 +1077,13 @@ background-size: 100%;
  gap: 1.5rem;
 }
 
-.products .box-container1 .column-three .box{
- float: center;
+.products .box-container1 .box{
+ text-align: center;
  border: var(--border);
  padding: 2rem;
 }
 
-.products .box-container2 .column-three .box{
+.products .box-container2 .box{
  text-align: center;
  border: var(--border);
  padding: 2rem;
