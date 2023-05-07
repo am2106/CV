@@ -1078,7 +1078,8 @@ background-size: 100%;
 }
 
 .products .box-container1 .box{
- text-align: right;
+ float: right;
+ text-align: center;
  border: var(--border);
  padding: 2rem;
 }
