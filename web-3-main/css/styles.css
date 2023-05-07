@@ -1073,6 +1073,7 @@ background-size: 100%;
 }
 
 .products .wrapper .box{
+ margin-right: auto;
  text-align: center;
  border: var(--border);
  padding: 2rem;
@@ -1110,7 +1111,7 @@ background-size: 100%;
 }
 
 .products .wrapper2 .box{
- text-align: center;
+ ext-align: center;
  border: var(--border);
  padding: 2rem;
 }
