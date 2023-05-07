@@ -1067,8 +1067,9 @@ background-size: 100%;
 
 .products .wrapper {
  display: grid;
- grid-template-columns: repeat(3, 2fr);
+ grid-template-columns: repeat(3, 1fr);
  gap: 10px;
+ grid-auto-rows: minmax(100px, auto);
 }
 
 .products .wrapper .box{
