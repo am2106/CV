@@ -1270,7 +1270,23 @@ transition: all 0.3s ease-in;
  padding: 2rem;
 }
 
+.products .box-container2 .box{
+ text-align: center;
+ border: var(--border);
+ padding: 2rem;
+}
+
 .products .box-container .box icons a {
+ height: 5rem;
+ width: 5rem;
+ line-height: 5rem;
+ font-size: 2rem;
+ border: var(--border);
+ color: #fff;
+ margin: 3rem;
+}
+
+.products .box-container2 .box icons a {
  height: 5rem;
  width: 5rem;
  line-height: 5rem;
@@ -1284,10 +1300,22 @@ transition: all 0.3s ease-in;
  background:var(--main-color);
 }
 
+.products .box-container2 .box icons a:hover {
+ background:var(--main-color);
+}
+
 .products .box-container .box .images{
  padding: 2.5rem 0;
 }
 
+.products .box-container2 .box .images{
+ padding: 2.5rem 0;
+}
+
 .products .box-container .box .images img{
+ padding: 25rem;
+}
+
+.products .box-container2 .box .images img{
  padding: 25rem;
 }
