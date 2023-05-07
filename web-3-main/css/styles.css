@@ -1078,13 +1078,13 @@ background-size: 100%;
 }
 
 .products .box-container1 .box{
- float: right;
+ justify-content: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
 }
 .products .box-container2 .box{
- float: right;
+ justify-content: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
@@ -1243,7 +1243,7 @@ color: #fff;
 margin-left: -5px;
 font-weight: 500;
 font-size: 18px;
-max-width: 100px;
+max-width: 170px;
 width: 100%;
 border-radius: 30px;
 text-transform: uppercase;
