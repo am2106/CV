@@ -1227,3 +1227,25 @@ transition: all 0.3s ease-in;
  .copyright a:hover {
      color: #ff7e1d ;
 }
+}
+ .Search_btn {
+    padding: 15px 0px;
+    border: #1a1b19 solid 1px;
+     background: #1a1b19;
+     color: #fff;
+     margin-left: -5px;
+     font-weight: 500;
+     font-size: 18px;
+     max-width: 194px;
+     width: 100%;
+
+     box-shadow: #b0b0b0 0px -2px 9px 0px;
+      transition: all 0.3s ease-in;
+}
+ .Search_btn:hover {
+     background: #7A93D0;
+     border: #7A93D0 solid 1px;
+     color: #fff;
+     transition: all 0.3s ease-in;
+
+}
