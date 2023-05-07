@@ -1266,8 +1266,7 @@ transition: all 0.3s ease-in;
 }
 
 .products .box-container .box{
- text-align: center;
- float: left;
+ float: right;
  border: var(--border);
  padding: 2rem;
 }
