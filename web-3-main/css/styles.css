@@ -1078,13 +1078,13 @@ background-size: 100%;
 }
 
 .products .box-container1 .box{
- justify-content: right;
+ justify-content: flex-start;
  text-align: center;
  border: var(--border);
  padding: 2rem;
 }
 .products .box-container2 .box{
- justify-content: right;
+ justify-content: flex-start;
  text-align: center;
  border: var(--border);
  padding: 2rem;
