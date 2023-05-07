@@ -1253,6 +1253,12 @@ transition: all 0.3s ease-in;
 
 }
 
+.products .box-container {
+ display: grid;
+ grid-template-columns: repeat(2, 2fr);
+ gap: 1.5rem;
+}
+
 .products .box-container1 {
  display: grid;
  grid-template-columns: repeat(2, 2fr);
