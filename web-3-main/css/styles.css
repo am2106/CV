@@ -1253,7 +1253,7 @@ transition: all 0.3s ease-in;
 
 }
 
-.products .box-container {
+.products .box-container2 {
  display: grid;
  grid-template-columns: repeat(1, 3fr);
  gap: 1.5rem;
@@ -1265,7 +1265,7 @@ transition: all 0.3s ease-in;
  gap: 1.5rem;
 }
 
-.products .box-container .box{
+.products .box-container2 .box{
  float: right;
  border: var(--border);
  padding: 2rem;
@@ -1277,7 +1277,7 @@ transition: all 0.3s ease-in;
  padding: 2rem;
 }
 
-.products .box-container .box icons a {
+.products .box-container2 .box icons a {
  height: 5rem;
  width: 5rem;
  line-height: 5rem;
@@ -1305,7 +1305,7 @@ transition: all 0.3s ease-in;
  background:var(--main-color);
 }
 
-.products .box-container .box .images{
+.products .box-container2 .box .images{
  padding: 2.5rem 0;
 }
 
@@ -1313,7 +1313,7 @@ transition: all 0.3s ease-in;
  padding: 2.5rem 0;
 }
 
-.products .box-container .box .images img{
+.products .box-container2 .box .images img{
  padding: 25rem;
 }
 
