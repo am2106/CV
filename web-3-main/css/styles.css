@@ -1065,15 +1065,15 @@ background-size: 100%;
 
 }
 
-.products .box-container1 {
+.products .box-container1 .column-two {
  display: grid;
- grid-template-columns: auto auto auto auto;
+ grid-template-columns: repeat(2, 2fr);
  gap: 1.5rem;
 }
 
 .products .box-container2 .column-two {
  display: grid;
- grid-template-columns: auto auto auto auto;
+ grid-template-columns: repeat(2, 2fr);
  gap: 1.5rem;
 }
 
