@@ -1102,6 +1102,42 @@ background-size: 100%;
 
 
 
+.products .wrapper2 {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 10px;
+ grid-auto-rows: minmax(100px, auto);
+}
+
+.products .wrapper2 .box{
+ text-align: center;
+ border: var(--border);
+ padding: 2rem;
+}
+
+.products .wrapper2 .box icons a {
+ height: 5rem;
+ width: 5rem;
+ line-height: 5rem;
+ font-size: 2rem;
+ border: var(--border);
+ color: #000;
+ margin: 3rem;
+}
+
+.products .wrapper2 .box icons a:hover {
+ background:var(--main-color);
+}
+
+.products .wrapper2 .box .images{
+ padding: 2.5rem 0;
+}
+
+.products .wrapper2 .box .images img{
+ padding: 25rem;
+}
+
+
 
 .white_color {background: #fff; box-shadow: 0px 0px 11px 0px;}
 .map figure {margin: 0px;}
