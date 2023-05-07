@@ -1078,7 +1078,7 @@ background-size: 100%;
 }
 
 .products .box-container1 .box{
- float: right;
+ float: center;
  border: var(--border);
  padding: 2rem;
 }
