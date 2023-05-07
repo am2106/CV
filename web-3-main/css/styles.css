@@ -48,14 +48,12 @@
  h1 {
      font-size: 24px;
      text-align: center;
-     padding: 0 10 0 0;
 }
  h2 {
      font-size: 22px 
 }
  h3 {
      font-size: 18px;
-     text-align: center;
 }
  h4 {
      font-size: 16px 
@@ -1067,7 +1065,7 @@ background-size: 100%;
 
 .products .wrapper {
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(3, 2fr);
  gap: 10px;
  grid-auto-rows: minmax(100px, auto);
 }
