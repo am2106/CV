@@ -1253,7 +1253,7 @@ transition: all 0.3s ease-in;
 
 }
 
-.products .box-container2 {
+.products .box-container1 {
  display: grid;
  grid-template-columns: repeat(1, 3fr);
  gap: 1.5rem;
@@ -1277,7 +1277,7 @@ transition: all 0.3s ease-in;
  padding: 2rem;
 }
 
-.products .box-container2 .box icons a {
+.products .box-container1 .box icons a {
  height: 5rem;
  width: 5rem;
  line-height: 5rem;
@@ -1297,7 +1297,7 @@ transition: all 0.3s ease-in;
  margin: 3rem;
 }
 
-.products .box-container .box icons a:hover {
+.products .box-container1 .box icons a:hover {
  background:var(--main-color);
 }
 
@@ -1305,7 +1305,7 @@ transition: all 0.3s ease-in;
  background:var(--main-color);
 }
 
-.products .box-container2 .box .images{
+.products .box-container1 .box .images{
  padding: 2.5rem 0;
 }
 
@@ -1313,7 +1313,7 @@ transition: all 0.3s ease-in;
  padding: 2.5rem 0;
 }
 
-.products .box-container2 .box .images img{
+.products .box-container1 .box .images img{
  padding: 25rem;
 }
 
