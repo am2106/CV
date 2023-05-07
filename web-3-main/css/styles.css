@@ -1082,6 +1082,11 @@ background-size: 100%;
  border: var(--border);
  padding: 2rem;
 }
+.products .box-container2 .box{
+ text-align: center;
+ border: var(--border);
+ padding: 2rem;
+}
 
 .products .box-container1 .box icons a {
  height: 5rem;
