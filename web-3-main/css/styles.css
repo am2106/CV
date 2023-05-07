@@ -1320,3 +1320,19 @@ img {
  row-gap: 32px;
 }
 
+.item-list {
+ background-color: #fff;
+ border-radius: 5px;
+ overflow: hidden;
+ box-shadow: 00 4px 0 rgba(15, 4, 0, 0.05);
+ transition: all 02s ease-out;
+}
+
+.item:hover {
+ box-shadow: 00 4px 0 rgba(15, 4, 0, 0.05);
+}
+
+.product-img {
+ position: relative;
+ overflow: hidden;
+}
