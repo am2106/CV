@@ -1027,22 +1027,6 @@ font-weight: bold;
      font-weight: 500;
 }
 
- .shop {
-padding-bottom: 90px;
-background-size: cover;
-background: url(../images/banner2.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-size: 100%;
-
-}
-.shop_bg .titlepage {padding-bottom: 20px; text-align: right !important; padding-right: 10px;}
-#map {
-    height: 100%;
-    min-height: 470px;
-}
-
-
 .white_color {background: #fff; box-shadow: 0px 0px 11px 0px;}
 .map figure {margin: 0px;}
 .map figure img {width: 100%;}
@@ -1258,6 +1242,7 @@ transition: all 0.3s ease-in;
 }
 
 .products .box-container .box{
+ justify-content: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
