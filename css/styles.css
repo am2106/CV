@@ -1065,13 +1065,13 @@ background-size: 100%;
 
 .products .wrapper {
  display: grid;
- grid-template-columns: repeat(3, 2fr);
+ grid-template-columns: repeat(3, 1fr);
  gap: 10px;
  grid-auto-rows: minmax(100px, auto);
 }
 
 .products .wrapper .box{
- margin-right: auto;
+ justify-content: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
@@ -1103,13 +1103,14 @@ background-size: 100%;
 
 .products .wrapper2 {
  display: grid;
- grid-template-columns: repeat(3, 2fr);
+ grid-template-columns: repeat(3, 1fr);
  gap: 10px;
  grid-auto-rows: minmax(100px, auto);
 }
 
 .products .wrapper2 .box{
- align-content: space-evenly;
+ justify-content: right;
+ align-content: center;
  border: var(--border);
  padding: 2rem;
 }
