@@ -1071,7 +1071,6 @@ background-size: 100%;
 }
 
 .products .wrapper .box{
- flex-direction: row;
  text-align: center;
  border: var(--border);
  padding: 2rem;
@@ -1103,13 +1102,12 @@ background-size: 100%;
 
 .products .wrapper2 {
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(3, 2fr);
  gap: 10px;
  grid-auto-rows: minmax(100px, auto);
 }
 
 .products .wrapper2 .box{
- flex-direction: row;
  align-content: center;
  border: var(--border);
  padding: 2rem;
