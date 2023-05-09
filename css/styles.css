@@ -1237,12 +1237,12 @@ transition: all 0.3s ease-in;
 
 .products .box-container {
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax (3rem, 1fr));
+ grid-template-columns: repeat(3rem, 1fr);
  gap: 1.5rem;
 }
 
 .products .box-container .box{
- justify-content: right;
+ float: right;
  text-align: center;
  border: var(--border);
  padding: 2rem;
